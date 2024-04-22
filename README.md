@@ -1,12 +1,9 @@
-- 👋 Hi, I’m @Watchman44
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+class rectangle(): 
+    X = int(input("What is the length of the rectangle? ")) 
+    
+    Y = int(input("What is the width of the rectangle? "))
 
-<!---
-Watchman44/Watchman44 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+    print("The area of the rectangle is: ") 
+    
+    print(X * Y)
+
